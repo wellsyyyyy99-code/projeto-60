@@ -1,0 +1,552 @@
+{
+ "pack": 1,
+ "episodes": [
+  {
+   "ep": 1,
+   "title": "Oi, mãe da Gabi!",
+   "lines": [
+    {
+     "speaker": "Narrador",
+     "pt": "Sexta-feira, seis da tarde, em Londres. O George liga pra Gabi.",
+     "heard": "Sexta-fera, seis da tardji, in Londris. U George liga pra Gabi.",
+     "en": "Friday, six in the evening, in London. George calls Gabi."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Oi, amor! Peraí, a minha mãe quer falar com você.",
+     "heard": "Oi, amor! Peraí, a minha mãinh ké falá cum você.",
+     "en": "Hi love! Hang on, my mum wants to talk to you."
+    },
+    {
+     "speaker": "George",
+     "pt": "Sério? Tô nervoso!",
+     "heard": "Sériu? Tô nervozu!",
+     "en": "Really? I'm nervous!"
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Relaxa! Ela é um amor. Mãe, vem cá!",
+     "heard": "Relaxa! Ela é um amor. Mãinh, vein cá!",
+     "en": "Relax! She's lovely. Mum, come here!"
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Oi, George! Tudo bem?",
+     "heard": "Oi, George! Tudu bein?",
+     "en": "Hi George! How are you?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Oi! Tudo bem, e a senhora?",
+     "heard": "Oi! Tudu bein, i a sinhora?",
+     "en": "Hi! I'm good, and you?"
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Tudo ótimo! Nossa, você fala português!",
+     "heard": "Tudu ótchimu! Nóssa, você fala portuguêis!",
+     "en": "Great! Wow, you speak Portuguese!"
+    },
+    {
+     "speaker": "George",
+     "pt": "Tô aprendendo! Ainda falo pouco, mas tô tentando.",
+     "heard": "Tô aprendenu! Inda falu poucu, mas tô tentanu.",
+     "en": "I'm learning! I don't speak much yet, but I'm trying."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Que lindo! A Gabi fala muito de você.",
+     "heard": "Ki lindu! A Gabi fala muitu dji você.",
+     "en": "That's lovely! Gabi talks about you a lot."
+    },
+    {
+     "speaker": "George",
+     "pt": "Ela fala muito da senhora também!",
+     "heard": "Ela fala muitu da sinhora tambeim!",
+     "en": "She talks about you a lot too!"
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Só coisa boa, né?",
+     "heard": "Só coisa boa, né?",
+     "en": "Only good things, right?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Claro! Tô muito animado pra conhecer a senhora.",
+     "heard": "Claru! Tô muitu animadu pra conhecê a sinhora.",
+     "en": "Of course! I'm really excited to meet you."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Eu também! Vem logo, viu? A casa é sua.",
+     "heard": "Eu tambeim! Vein logu, viu? A casa é sua.",
+     "en": "Me too! Come soon, OK? Our home is your home."
+    },
+    {
+     "speaker": "Narrador",
+     "pt": "O George desliga. Ele tá muito feliz.",
+     "heard": "U George desliga. Eli tá muitu feliz.",
+     "en": "George hangs up. He's really happy."
+    }
+   ],
+   "chunks": [
+    {
+     "pt": "Tudo bem, e a senhora?",
+     "heard": "Tudu bein, i a sinhora?",
+     "en": "I'm good, and you?",
+     "note": "Use a senhora with Gabi's mum"
+    },
+    {
+     "pt": "Tô nervoso!",
+     "heard": "Tô nervozu!",
+     "en": "I'm nervous!",
+     "note": "estou → tô"
+    },
+    {
+     "pt": "Tô aprendendo!",
+     "heard": "Tô aprendenu!",
+     "en": "I'm learning!",
+     "note": "-ndo → -no in speech"
+    },
+    {
+     "pt": "Ainda falo pouco, mas tô tentando.",
+     "heard": "Inda falu poucu, mas tô tentanu.",
+     "en": "I don't speak much yet, but I'm trying.",
+     "note": "Brazilians love hearing this"
+    },
+    {
+     "pt": "Tô muito animado pra conhecer a senhora.",
+     "heard": "Tô muitu animadu pra conhecê a sinhora.",
+     "en": "I'm really excited to meet you.",
+     "note": "animado = excited"
+    }
+   ],
+   "speak": [
+    {
+     "speaker": "Mãe",
+     "q": "Como você tá, George?",
+     "q_en": "How are you, George?",
+     "model": "Tô bem, e a senhora?",
+     "model_en": "I'm good, and you?"
+    },
+    {
+     "speaker": "Mãe",
+     "q": "Você fala português?",
+     "q_en": "Do you speak Portuguese?",
+     "model": "Tô aprendendo! Ainda falo pouco, mas tô tentando.",
+     "model_en": "I'm learning! I don't speak much yet, but I'm trying."
+    },
+    {
+     "speaker": "Mãe",
+     "q": "Tá nervoso?",
+     "q_en": "Are you nervous?",
+     "model": "Um pouco! Mas tô muito animado pra conhecer a senhora.",
+     "model_en": "A bit! But I'm really excited to meet you."
+    },
+    {
+     "speaker": "Gabi",
+     "q": "E aí, o que você achou da minha mãe?",
+     "q_en": "So, what did you think of my mum?",
+     "model": "Ela é um amor!",
+     "model_en": "She's lovely!"
+    }
+   ],
+   "task": "Record a 30-second hello to Gabi's mum (don't send it!): greet her, say you're learning, say you're excited to meet her."
+  },
+  {
+   "ep": 2,
+   "title": "Quem é o George?",
+   "lines": [
+    {
+     "speaker": "Narrador",
+     "pt": "Sábado de manhã. A mãe da Gabi liga de novo. Ela tem muitas perguntas.",
+     "heard": "Sábadu dji manhã. A mãinh da Gabi liga dji novu. Ela teim muitas perguntas.",
+     "en": "Saturday morning. Gabi's mum calls again. She has lots of questions."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "George, o que você faz da vida?",
+     "heard": "George, u ki você faz da vida?",
+     "en": "George, what do you do for a living?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Trabalho com câmbio, numa empresa de tecnologia financeira.",
+     "heard": "Trabalhu cum câmbiu, numa empresa dji tecnologia financera.",
+     "en": "I work in FX, at a fintech company."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Câmbio? Tipo dólar, euro?",
+     "heard": "Câmbiu? Tchipu dólar, euru?",
+     "en": "FX? Like dollars, euros?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Isso! Eu conecto bancos e clientes.",
+     "heard": "Issu! Eu conectu bancus i clientchis.",
+     "en": "Exactly! I connect banks and clients."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Nossa, que chique! E você gosta?",
+     "heard": "Nóssa, ki chiki! I você gosta?",
+     "en": "Wow, how fancy! And do you like it?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Gosto muito. É corrido, mas é legal.",
+     "heard": "Gostu muitu. É corridu, mas é legau.",
+     "en": "I really like it. It's hectic, but it's good."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "E você mora onde? Em Londres mesmo?",
+     "heard": "I você mora ondji? In Londris mêmu?",
+     "en": "And where do you live? In London itself?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Moro perto de Londres. Pego o trem todo dia.",
+     "heard": "Moru pertu dji Londris. Pegu u trein todu djia.",
+     "en": "I live near London. I get the train every day."
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Todo dia? Que canseira!",
+     "heard": "Todu djia? Ki canseira!",
+     "en": "Every day? How tiring!"
+    },
+    {
+     "speaker": "George",
+     "pt": "Mas eu aproveito o trem pra estudar português!",
+     "heard": "Mas eu aproveitu u trein pra estudá portuguêis!",
+     "en": "But I use the train to study Portuguese!"
+    },
+    {
+     "speaker": "Mãe",
+     "pt": "Muito bem! Gostei de você, George.",
+     "heard": "Muitu bein! Gostei dji você, George.",
+     "en": "Very good! I like you, George."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Viu? Eu falei que ela ia gostar!",
+     "heard": "Viu? Eu falei ki ela ia gostá!",
+     "en": "See? I told you she'd like you!"
+    }
+   ],
+   "chunks": [
+    {
+     "pt": "O que você faz da vida?",
+     "heard": "U ki você faz da vida?",
+     "en": "What do you do for a living?",
+     "note": "You'll hear this a lot"
+    },
+    {
+     "pt": "Trabalho com câmbio.",
+     "heard": "Trabalhu cum câmbiu.",
+     "en": "I work in FX.",
+     "note": "trabalhar com = work in/with"
+    },
+    {
+     "pt": "Eu conecto bancos e clientes.",
+     "heard": "Eu conectu bancus i clientchis.",
+     "en": "I connect banks and clients.",
+     "note": "Your job in one line"
+    },
+    {
+     "pt": "É corrido, mas é legal.",
+     "heard": "É corridu, mas é legau.",
+     "en": "It's hectic, but it's good.",
+     "note": "corrido = busy/hectic"
+    },
+    {
+     "pt": "Moro perto de Londres.",
+     "heard": "Moru pertu dji Londris.",
+     "en": "I live near London.",
+     "note": "perto de = near"
+    }
+   ],
+   "speak": [
+    {
+     "speaker": "Mãe",
+     "q": "O que você faz da vida?",
+     "q_en": "What do you do for a living?",
+     "model": "Trabalho com câmbio. Eu conecto bancos e clientes.",
+     "model_en": "I work in FX. I connect banks and clients."
+    },
+    {
+     "speaker": "Mãe",
+     "q": "E você gosta?",
+     "q_en": "And do you like it?",
+     "model": "Gosto muito. É corrido, mas é legal.",
+     "model_en": "I really like it. It's hectic, but good."
+    },
+    {
+     "speaker": "Mãe",
+     "q": "Você mora onde?",
+     "q_en": "Where do you live?",
+     "model": "Moro perto de Londres.",
+     "model_en": "I live near London."
+    },
+    {
+     "speaker": "Mãe",
+     "q": "Como você vai pro trabalho?",
+     "q_en": "How do you get to work?",
+     "model": "Pego o trem todo dia.",
+     "model_en": "I get the train every day."
+    }
+   ],
+   "task": "1 / 0:45 / 0:30: explain your job and where you live in 1 minute, then the same in 45 seconds, then 30 seconds."
+  },
+  {
+   "ep": 3,
+   "title": "Um dia normal",
+   "lines": [
+    {
+     "speaker": "Narrador",
+     "pt": "Segunda-feira. Seis e meia da manhã. O despertador toca.",
+     "heard": "Segunda-fera. Seis i meia da manhã. U despertadô toca.",
+     "en": "Monday. Half six in the morning. The alarm goes off."
+    },
+    {
+     "speaker": "George",
+     "pt": "Bom dia, amor! Acabei de acordar.",
+     "heard": "Bom djia, amor! Acabei dji acordá.",
+     "en": "Morning, love! I've just woken up."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Bom dia! Aqui ainda é madrugada, hein!",
+     "heard": "Bom djia! Aqui inda é madrugada, hein!",
+     "en": "Morning! It's still the middle of the night here!"
+    },
+    {
+     "speaker": "George",
+     "pt": "Desculpa! Agora vou pra academia.",
+     "heard": "Discurpa! Agora vô pra academia.",
+     "en": "Sorry! I'm off to the gym now."
+    },
+    {
+     "speaker": "Narrador",
+     "pt": "Depois da academia, o George pega o trem.",
+     "heard": "Dispois da academia, u George pega u trein.",
+     "en": "After the gym, George gets the train."
+    },
+    {
+     "speaker": "George",
+     "pt": "Tô no trem. Tô ouvindo um podcast em português.",
+     "heard": "Tô nu trein. Tô ouvinu um podcast in portuguêis.",
+     "en": "I'm on the train. I'm listening to a podcast in Portuguese."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Que orgulho! E o trabalho hoje?",
+     "heard": "Ki orgulhu! I u trabalhu hoji?",
+     "en": "So proud! And work today?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Hoje tenho muitas reuniões. Vai ser um dia longo.",
+     "heard": "Hoji tenhu muitas reuniõis. Vai sê um djia longu.",
+     "en": "I've got lots of meetings today. It's going to be a long day."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Coitado! Mas à noite a gente se fala, né?",
+     "heard": "Coitadu! Mas à noitchi a gentchi si fala, né?",
+     "en": "Poor thing! But we'll talk tonight, right?"
+    },
+    {
+     "speaker": "George",
+     "pt": "Claro! Te ligo à noite.",
+     "heard": "Claru! Tchi ligu à noitchi.",
+     "en": "Of course! I'll call you tonight."
+    },
+    {
+     "speaker": "Gabi",
+     "pt": "Combinado! Beijo!",
+     "heard": "Combinadu! Bêju!",
+     "en": "Deal! Kisses!"
+    },
+    {
+     "speaker": "George",
+     "pt": "Beijo! Tchau!",
+     "heard": "Bêju! Tchau!",
+     "en": "Kisses! Bye!"
+    }
+   ],
+   "chunks": [
+    {
+     "pt": "Acabei de acordar.",
+     "heard": "Acabei dji acordá.",
+     "en": "I've just woken up.",
+     "note": "acabei de + verb = I've just..."
+    },
+    {
+     "pt": "Vou pra academia.",
+     "heard": "Vô pra academia.",
+     "en": "I'm going to the gym.",
+     "note": "academia = gym"
+    },
+    {
+     "pt": "Tô no trem.",
+     "heard": "Tô nu trein.",
+     "en": "I'm on the train.",
+     "note": "no = em + o"
+    },
+    {
+     "pt": "Te ligo à noite.",
+     "heard": "Tchi ligu à noitchi.",
+     "en": "I'll call you tonight.",
+     "note": "Present tense used for near future"
+    },
+    {
+     "pt": "Combinado!",
+     "heard": "Combinadu!",
+     "en": "Deal! / Agreed!",
+     "note": "Ends any plan"
+    }
+   ],
+   "speak": [
+    {
+     "speaker": "Gabi",
+     "q": "Que horas você acorda?",
+     "q_en": "What time do you wake up?",
+     "model": "Acordo cedo, umas seis e meia.",
+     "model_en": "I get up early, around half six."
+    },
+    {
+     "speaker": "Gabi",
+     "q": "E depois, o que você faz?",
+     "q_en": "And then what do you do?",
+     "model": "Vou pra academia e depois pego o trem.",
+     "model_en": "I go to the gym and then get the train."
+    },
+    {
+     "speaker": "Gabi",
+     "q": "Tá fazendo o quê agora?",
+     "q_en": "What are you doing right now?",
+     "model": "Tô no trem, ouvindo um podcast em português.",
+     "model_en": "I'm on the train, listening to a podcast in Portuguese."
+    },
+    {
+     "speaker": "Gabi",
+     "q": "A gente se fala à noite?",
+     "q_en": "Shall we talk tonight?",
+     "model": "Claro! Te ligo à noite.",
+     "model_en": "Of course! I'll call you tonight."
+    }
+   ],
+   "task": "Tomorrow morning, narrate your real routine out loud as it happens: Acordei... Tô fazendo café... Vou pra academia..."
+  }
+ ],
+ "drills": [
+  {
+   "en": "I'm good, and you? (to Gabi's mum)",
+   "pt": "Tudo bem, e a senhora?"
+  },
+  {
+   "en": "I'm nervous!",
+   "pt": "Tô nervoso!"
+  },
+  {
+   "en": "I'm learning!",
+   "pt": "Tô aprendendo!"
+  },
+  {
+   "en": "I don't speak much yet, but I'm trying.",
+   "pt": "Ainda falo pouco, mas tô tentando."
+  },
+  {
+   "en": "She talks about you a lot too!",
+   "pt": "Ela fala muito da senhora também!"
+  },
+  {
+   "en": "I'm really excited to meet you.",
+   "pt": "Tô muito animado pra conhecer a senhora."
+  },
+  {
+   "en": "Only good things!",
+   "pt": "Só coisa boa!"
+  },
+  {
+   "en": "What do you do for a living?",
+   "pt": "O que você faz da vida?"
+  },
+  {
+   "en": "I work in FX.",
+   "pt": "Trabalho com câmbio."
+  },
+  {
+   "en": "I connect banks and clients.",
+   "pt": "Eu conecto bancos e clientes."
+  },
+  {
+   "en": "It's hectic, but it's good.",
+   "pt": "É corrido, mas é legal."
+  },
+  {
+   "en": "I live near London.",
+   "pt": "Moro perto de Londres."
+  },
+  {
+   "en": "I get the train every day.",
+   "pt": "Pego o trem todo dia."
+  },
+  {
+   "en": "I study Portuguese on the train.",
+   "pt": "Estudo português no trem."
+  },
+  {
+   "en": "I've just woken up.",
+   "pt": "Acabei de acordar."
+  },
+  {
+   "en": "I'm going to the gym.",
+   "pt": "Vou pra academia."
+  },
+  {
+   "en": "I'm on the train.",
+   "pt": "Tô no trem."
+  },
+  {
+   "en": "I'm listening to a podcast.",
+   "pt": "Tô ouvindo um podcast."
+  },
+  {
+   "en": "I've got lots of meetings today.",
+   "pt": "Hoje tenho muitas reuniões."
+  },
+  {
+   "en": "It's going to be a long day.",
+   "pt": "Vai ser um dia longo."
+  },
+  {
+   "en": "I'll call you tonight.",
+   "pt": "Te ligo à noite."
+  },
+  {
+   "en": "Deal!",
+   "pt": "Combinado!"
+  },
+  {
+   "en": "Sorry!",
+   "pt": "Desculpa!"
+  },
+  {
+   "en": "Can you speak more slowly?",
+   "pt": "Pode falar mais devagar?"
+  },
+  {
+   "en": "What do you mean?",
+   "pt": "Como assim?"
+  },
+  {
+   "en": "I support Tottenham.",
+   "pt": "Torço pro Tottenham."
+  }
+ ]
+}
