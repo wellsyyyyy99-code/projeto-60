@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Projeto 60 — São Paulo Sprint</title>
+    <link>https://wellsyyyyy99-code.github.io/projeto-60/</link>
+    <description>George's private 60-episode Portuguese story</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Fri, 16 Oct 2026 20:08:26 +0000</lastBuildDate>
+    <itunes:block>yes</itunes:block>
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Pack 01 · Drills (ep 1–3)</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-01.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/pack01-drills.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/pack01-drills.mp3" length="2817888" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 19:11:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 03 · Um dia normal</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-01.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep03-um-dia-normal.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep03-um-dia-normal.mp3" length="5655077" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 19:10:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 02 · Quem é o George?</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-01.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep02-quem-e-o-george.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep02-quem-e-o-george.mp3" length="5945193" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 19:09:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 01 · Oi, mãe da Gabi!</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-01.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep01-oi-mae-da-gabi.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep01-oi-mae-da-gabi.mp3" length="6419817" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 00 · As 20 perguntas da Mãe</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-00.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-as-20-perguntas-da-mae.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-as-20-perguntas-da-mae.mp3" length="3158127" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 06:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 00 · Sound rules 2: how letters change</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-00.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-sound-rules-2-how-letters-change.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-sound-rules-2-how-letters-change.mp3" length="1594873" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 06:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep 00 · Sound rules 1: spoken shortcuts</title>
+      <description>Transcript: https://wellsyyyyy99-code.github.io/projeto-60/transcripts/pack-00.html</description>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-sound-rules-1-spoken-shortcuts.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/projeto-60/audio/ep00-sound-rules-1-spoken-shortcuts.mp3" length="1546487" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
